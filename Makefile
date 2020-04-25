@@ -2,10 +2,10 @@ TARBALL= tls.tar.gz
 CFLAG = -Wall -Wextra -g -lmraa -lm
 
 default:	
-	gcc $(CFLAG) -lssl -lcrypto -o lab4c_tls lab4c_tls.c
+	gcc $(CFLAG) -lssl -lcrypto -o tls tls.c
 
 clean:
-	rm -f *.tar.gz lab4c_tls
+	rm -f *.tar.gz tls
 
 dist:   
-	tar -cvzf $(TARBALL) README Makefile lab4c_tls.c 
+	tar -cvzf $(TARBALL) README Makefile tls.c 
