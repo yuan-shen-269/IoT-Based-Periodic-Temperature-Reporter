@@ -11,9 +11,6 @@
 ### Makefile
 
    This contains three targets:
-   
       (default) ... build the tls executables.
-      
       clean ... delete all files created by the Makefile.
-      
       dist ... build a distribution tarball.
