@@ -1,6 +1,6 @@
 # IoT-Based-Periodic-Temperature-Reporter
 
-### lab4c_tls.c
+### tls.c
 
    This is a source file that can read temperature data from BeagleBone and generates report which will be sent to a remote 
    server via TLS connection. This file also reads input from the server and treats them as commands to control the report. To 
@@ -11,8 +11,9 @@
 ### Makefile
 
    This contains three targets:
-   ```
-      (default) ... build the lab4c_tls executables.
+   
+      (default) ... build the tls executables.
+      
       clean ... delete all files created by the Makefile.
+      
       dist ... build a distribution tarball.
-   ```
